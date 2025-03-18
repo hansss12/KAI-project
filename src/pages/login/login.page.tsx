@@ -14,7 +14,7 @@ const LoginPage = () => {
   if (accessToken) return <Navigate to={inputRencanaPath} replace />
 
   return (
-    <div className="h-screen w-full flex justify-center bg-gradient-to-b from-[#7446CD] to-[#D84186] items-center">
+    <div className="h-screen w-full flex justify-center bg-gradient-to-b from-[#7446CD] to-[#D84186] items-center no-scrollbar">
       <img src={LoginDots1} alt="login-dots-1" className="absolute left-10 top-10 w-[10vw]" />
       <div className="flex flex-col my-[20vh]">
         <div className="flex flex-col items-center">

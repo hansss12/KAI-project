@@ -21,7 +21,7 @@ const DashboardLayout: React.FC = () => {
   return (
     <div className="flex">
       <Sidebar active={navbarActive} toggleSidebar={toggleSidebar} />
-      <Container className={`${navbarActive ? "w-[80%]" : "w-full"}`}>
+      <Container className={`${navbarActive ? "w-[calc(100vw-250px)]" : "w-full"}`}>
         <div className="flex justify-between p-4">
           <h1 className="text-3xl font-bold">E-Monitoring IBE</h1>
           <div className="flex justify-start gap-4 items-center">
