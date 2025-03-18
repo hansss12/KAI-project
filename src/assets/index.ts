@@ -1,0 +1,12 @@
+export { default as KAILogo } from "./kai-logo.png";
+export { default as Key } from "./key.png";
+export { default as LoginBG } from "./bg-login.png";
+export { default as LoginDots1 } from "./dots-login-1.png";
+export { default as LoginDots2 } from "./dots-login-2.png";
+export { default as Loading } from "./loading.svg";
+export { default as Menu1 } from "./menu-1.svg";
+export { default as LoadingBlack } from "./loading-black.svg";
+export { default as SidebarTrain } from "./train.png";
+export { default as DotsBottom } from "./dots-bottom.png";
+export { default as ColoredDots } from "./colored-dots.png";
+export { default as EmptyState } from "./empty-state.png";
