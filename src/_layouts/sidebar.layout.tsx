@@ -37,7 +37,7 @@ const Sidebar: React.FC<SidebarProps> = ({ active }) => {
                   : null}
                 <div className="flex items-center gap-2 ml-4">
                   {active ? el.activeIcon : el.icon}
-                  <p className="text-lg font-semibold">
+                  <p className={`text-lg ${active ? "font-semibold" : "font-normal"}`}>
                     {el.name}
                   </p>
                 </div>
@@ -65,7 +65,7 @@ const Sidebar: React.FC<SidebarProps> = ({ active }) => {
                   : null}
                 <div className="flex items-center gap-2 ml-4">
                   {active ? el.activeIcon : el.icon}
-                  <p className="text-lg font-semibold">
+                  <p className={`text-lg ${active ? "font-semibold" : "font-normal"}`}>
                     {el.name}
                   </p>
                 </div>
