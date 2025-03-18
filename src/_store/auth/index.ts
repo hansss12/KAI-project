@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { LoginI, Profile, User } from "../../interfaces/login";
+import { LoginI, Profile } from "../../interfaces/login";
 
 export interface AuthStateI {
   accessToken?: string;
